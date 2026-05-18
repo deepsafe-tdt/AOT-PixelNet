@@ -106,6 +106,9 @@ if __name__ == '__main__':
     mp.set_start_method('spawn', force=True)
     # 清空results下所有文件
     result_dir = "results"
+    if not os.path.exists(result_dir):
+        os.makedirs(result_dir)
+        print(f"已自动创建目录: {result_dir}")
     if os.listdir(result_dir):
         for file in os.listdir(result_dir):
             os.remove(os.path.join(result_dir, file))
