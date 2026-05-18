@@ -1,6 +1,6 @@
 import torch
 import torch.nn as nn
-from utils.gen_matrix import gen_matrix
+from utils.gen_matirx import gen_matrix
 
 class DefaultConfigs(object):
 
