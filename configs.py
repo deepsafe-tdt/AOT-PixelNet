@@ -5,9 +5,9 @@ from utils.gen_matirx import gen_matrix
 class DefaultConfigs(object):
 
     seed = 0
-    train_dir = r"H:\_Data\wang_npr\train_progan"
-    val_dir = r"H:\_Data\wang_npr\wang_test"
-    test_dir = r"H:\_Data\wang_npr\wang_test"
+    train_dir = r"H:\_Data\wang_npr\test_try"
+    val_dir = r"H:\_Data\wang_npr\test_try"
+    test_dir = r"H:\_Data\wang_npr\test_try"
 
     epochs = 50
     batch_size = 32
